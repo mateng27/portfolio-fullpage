@@ -44,8 +44,12 @@ body{
  *  Timeline.css
  */
 
-   
-}
+/* .slide > div{
+    width: 60%;
+    height: 60%;
+
+} */
+
 
 .main a{
     color:#0085a1;
@@ -138,68 +142,6 @@ body{
     left: 20%;
     top: 0;
     margin: 0 0 0 -25px;
-}
-
-.cbp_tmicon-phone:before {
-    content: "\e004";
-    font-family: 'huxico';
-}
-
-.cbp_tmicon-screen:before {
-    content: "\e005";
-    font-family: 'huxico';
-}
-
-.cbp_tmicon-html:before {
-    content: "\e001";
-    font-family: 'huxico';
-}
-
-.cbp_tmicon-video:before {
-    content: "\e002";
-    font-family: 'huxico';
-}
-
-.cbp_tmicon-font:before {
-    content: "\e003";
-    font-family: 'huxico';
-}
-
-/** Venders Logo **/
-.i-vue:before {
-    content: "";
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: url("../images/logo-vue.png") 50% 50% no-repeat;
-    background-size: 20px;
-}
-
-.i-kissy:before {
-    content: "";
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: url("../images/logo-kissy.png") 50% 50% no-repeat;
-    background-size: 20px;
-}
-
-.i-jquery:before {
-    content: "";
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: url("../images/logo-jquery.png") 50% 50% no-repeat;
-    background-size: 20px;
-}
-
-.i-react:before {
-    content: "";
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: url("../images/logo-react.png") 50% 50% no-repeat;
-    background-size: 22px;
 }
 
 /******* Hux Branch *****/
@@ -340,8 +282,8 @@ header img{
 
 /*第二屏样式设置*/
 .section2{
-    background: #f2f2f2 url("img/technology_hero_large_2x.jpg") no-repeat bottom;
-    background-size: 100%;
+    background: #f2f2f2 url("img/section2-bg-caise.jpg") no-repeat bottom;
+    background-size: cover;
 }
 .section2 h1{
     margin: 20px auto;
@@ -357,12 +299,12 @@ header img{
 }
 /*第三屏样式设置*/
 .section3{
-    background: url("img/timekeeping_hero_large_2x.jpg") no-repeat center 300px;
-    background-size: 50%;
+    background: url("img/timekeeping_hero_large_2x.jpg")  center ;
+    background-size: cover;
 }
 .section3 h1{
     margin: 20px auto 20px -1500px;
-    color: #333;
+    color: white;
     font-size: 40px;
     font-weight: normal;
     width: 60%;
@@ -370,7 +312,7 @@ header img{
 }
 .section3 p{
     margin: 20px auto 0 1500px;
-    color: #333;
+    color: white;
     font-size: 18px;
     width: 60%;
     /*margin-left: 1500px;*/
